@@ -1,4 +1,5 @@
 import React from 'react';
+import ListSongs from './components/Cards/ListSongs';
 import Header from './components/Header/Header';
 import SongCard from './components/Cards/SongCard';
 import AlbumCard from './components/Cards/AlbumCard';
@@ -9,6 +10,7 @@ import './App.css';
 //import FrameCard from './components/Cards/FrameCard';
 // src/index.js o src/App.js
 //import MyComponent from './components/MyComponent/MyComponent';
+//import ListSongs from 'src/components/Cards/ListSongs.tsx'
 
 const App: React.FC = () => {
   return (
@@ -24,6 +26,8 @@ const App: React.FC = () => {
             ))}
           </div>
         </section>
+        <ListSongs />
+        
 
         <section className="section">
           <h2>Quick Picks</h2>
